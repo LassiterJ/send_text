@@ -11,8 +11,8 @@ auth_token  = "68cacea2c5055ede40cf0cb0e08431a5"
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-    to="+19047533854", 
+    to="+1", 
     from_="+19045302662",
-    body="Hello from Lassiter!")
+    body="I see you")
 
 print(message.sid)
